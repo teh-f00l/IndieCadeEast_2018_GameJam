@@ -1,10 +1,8 @@
-Prompt: i45hg
+Prompt: Jason Rohrer’s i45hg
 
 
 Simplistic Solitude?:
-Matilda-fixer, 
-Billy-dev, Jason 
-Rohrer-ghost designer
+by Matilda-fixer,  Billy-developer, and Jason Rohrer-ghost designer
 
 We were able to do a clear cut implementation of i45hg, Jason Rohrer’s exploration of the limits of single player games. This game initially had it that if a white block had one or two neighbors it would give the player a point, if it had three or four black neighbors, the block would shut down, and if it was alone, it would turn black. Adapting the rules to:
 
@@ -29,6 +27,21 @@ Deep State:
 Matilda-Witless Glorious Leader(WGL)
 
 Deep State is the adventure of two type A sociopaths advisors a Witless Great Leader(WGL, or Wiggle).   It is unclear which of the advisors the WGL tapped to expose the other as a deep state mastermind, if they were both tapped to pit them against each other or if the WGL was ignorant of any conspiracy. All that is clear is that half the population consisted of loyalists and half of rebels, and that only people that were mutually trusting or mutually paranoid would reveal their alligances to each other. On the surface, the two advisors would publicly act together to stamp out threats, either to the state or to their own agenda, agreeing on who to favor(one press), interrogate(two taps, lowers block’s zeal, and makes them change sides if low zeal low enough, or kills them if zeal dropped to zero), or kill(multiple button taps, drops zeal to zero, killing the block). They would each do one of these things on their own accord. As a person was hurt, they could be compelled to change sides, and when empowered, would revel their identity publicly when meeting an ally and trusting them. After a year, the WGL would either be ousted(if there are more rebels than loyalists) or keep power(vice versa), and those tapped would share the WGL’s fate, while those not tapped would be executed. If only the advisors could know eachothers loyalty while they worked together, maybe they looked into eachothers decisions? 
+
+So to break it down:
+    • WGL(witless great leader) can tap one advisor, both, or neither as confidants who will share their fate. 
+    • The board has loyalists and rebels, chosen by serial number
+    • An advisor can either 
+        ◦ empower(raise a blink’s energy), 
+        ◦ interrogate(lower a blink’s energy and change its side if its energy is low enough)
+        ◦ kill the blink(remove it from the game)
+    • Each advisor gets to make one move on their own, while they have to agree on another move to be made
+    • The blinks will reveal their identity to each other if they are either both cautious or both trusting(light up green), or avoid each other(light up red)
+        ◦  and will raise each others energy if they are both loyalists or rebels
+        ◦ or lower each others energy if not
+        ◦ if they have enough energy they reveal their identity publicly(blue if loyal, white if rebel)
+    • if there are more rebels the WGL and their confidant(s) lose, and vice versa
+      
 
 
 This game is a response to Jason Rohrer claim of superior depth of a multiplayer game. This game is more complex, but potentially less deep, than Rohrer’s game exploring the limits of single player. This game is about a messy togetherness that may have no clear resolution(what happens when the advisors disagree?). Rohrer’s exploration of the limits of single player games doesn’t emphasize the human element of games like go, the complexity of the human element isn’t necessarily beautiful, look up Josh Waitzkin on why he quit competitive chess to understand this. Sometimes solitude can be beautiful too, this isn’t just about technical limits.
